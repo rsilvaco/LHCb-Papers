@@ -1,0 +1,91 @@
+\section{Event selection}
+\label{sec:selection}
+
+The selection requirements follow closely those used for the determination
+of the branching fractions of the \BdstoKshhp decays, reported in
+Ref.~\cite{LHCb-PAPER-2017-010}.
+A brief summary of the requirements follows, with emphasis placed on
+where they differ from those used in the branching fraction analysis.
+
+Decays of \decay{\KS}{\pip\pim} are reconstructed in two different categories:
+the first involving \KS mesons that decay early enough for the
+resulting pions to be reconstructed in the \velo; and the
+second containing those \KS mesons that decay later, such that track
+segments from the pions cannot be formed in the \velo.
+These categories are referred to as \emph{\LL} and \emph{\DD}, respectively.
+While the \LL\ category has better mass, momentum and vertex resolution,
+there are approximately twice as many \KS candidates reconstructed in the
+\DD\ category.
+In the following, \B candidates reconstructed from either a \LL\ or \DD\
+\KS candidate, in addition to two oppositely charged tracks, are also
+referred to with these category names.
+In order to account for changes in the trigger efficiency for each of the
+\KS reconstruction categories during the data taking, the data sample is
+subdivided into 2011, 2012a, and 2012b data-taking periods.
+The 2012b sample is the largest, corresponding to 1.4\invfb, and also has
+the highest trigger efficiency.
+
+To suppress backgrounds, in particular combinatorial background formed by
+random combinations of unrelated tracks, the events satisfying the trigger
+requirements are filtered by a loose preselection, followed by an optimised
+multivariate selection.
+The selection is designed in such a way to minimise correlation of the
+signal efficiency with position in the Dalitz plot, resulting in better
+control of the corresponding systematic uncertainties.
+Consequenty, the selection exploits heavily the topological features
+that arise from the detached vertex of the \B candidate and relies very
+little on the kinematics of its decay products.
+
+The preselection of \KS and \B candidates and the training of the
+multivariate classifiers, based on a boosted decision tree~(BDT)
+algorithm~\cite{Breiman,AdaBoost}, is identical to that reported in
+Ref.~\cite{LHCb-PAPER-2017-010}.
+The selection requirement placed on the output of the BDTs is independently
+optimised for each data sample using a different figure of merit from that in Ref.~\cite{LHCb-PAPER-2017-010}.
+A study was performed with pseudoexperiments that were generated using a model containing a set of resonances that might contribute to the \BstoKsKPi Dalitz plot, and signal and background yields corresponding to various possible selection requirements on the BDT output.
+The statistical uncertainty on each of the magnitudes and phases of the
+resonances in the model as well as the systematic uncertainty
+corresponding to the knowledge of the Dalitz plot distribution of the
+backgrounds were determined for each selection requirement.
+The responses of several figures of merit were compared with the results of
+this study and that which showed the closest correspondence to minimising
+the uncertainties on the isobar parameters was chosen.
+This figure of merit is
+%
+\begin{equation}
+{\cal Q} \equiv \frac{N^2_{\rm sig}}{\left(N_{\rm sig}+N_{\rm bg}\right)^\frac{3}{2}} \,,
+\end{equation}
+%
+where $N_{\rm sig}$ ($N_{\rm bg}$) represents the number of expected signal
+(combinatorial background) events, for a given selection, in the signal region
+defined as the invariant-mass window of five times the typical resolution
+around the \Bd or \Bs mass.
+The value of $N_{\rm sig}$ is estimated based on the known branching
+fractions and efficiencies, while $N_{\rm bg}$ is calculated by fitting the
+sideband above the signal region and extrapolating into the signal region.
+It may be noted that ${\cal Q}$ is equal to the product of two other figures of merit considered in the literature: $N_{\rm sig}/\sqrt{N_{\rm sig}+N_{\rm bg}}$ (sometimes referred to as {\it significance}) and $N_{\rm sig}/\left(N_{\rm sig}+N_{\rm bg}\right)$ ({\it purity}).
+
+Particle identification (PID) information is used to assign
+each candidate exclusively to one out of four possible final states:
+\KsPiPi, \KsKpPim, \KsKmPip, and \KsKK.
+The PID requirements are optimised to reduce the cross-feed between the
+different signal decay modes using the same figure of merit ${\cal Q}$ introduced for the BDT optimisation. 
+Additional PID requirements are applied in order to reduce backgrounds from
+decays such as \LbtoKsPip, where the proton is misidentified as a kaon.
+
+Fully reconstructed \B-meson decays into two-body $\DorDsm\hadp$ or
+$(\cquark\cquarkbar)\KS$ combinations, where $(\cquark\cquarkbar)$
+indicates a charmonium resonance, may result in a \Kshhp final state that
+satisfies the selection criteria and has the same \B-candidate
+invariant mass distribution as the signal candidates.
+The decays of \Lbbar\ baryons to $\Lcbar\hadp$ with \decay{\Lcbar}{\antiproton\KS} also
+peak under the signal when the antiproton is misidentified.
+A series of invariant mass vetoes, identical to those used in
+Ref.~\cite{LHCb-PAPER-2017-010}, are employed to remove these backgrounds.
+
+The fraction of selected events containing more than one \B candidate is
+below the level of 1\%.
+The candidate to be retained in each event is chosen randomly but in such a
+way that the choice is reproducible.
+
+

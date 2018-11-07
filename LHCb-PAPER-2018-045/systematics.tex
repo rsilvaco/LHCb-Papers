@@ -1,0 +1,104 @@
+\section{Systematic uncertainties}
+\label{sec:systematics}
+
+Systematic uncertainties that affect the determination of the observables in the amplitude analysis arise from inaccuracy in the experimental inputs and the choice of the baseline amplitude parametrisation. 
+The evaluation of effects arising from these sources is discussed in the following, with a summary of the systematic uncertainties on the fit fractions in Table~\ref{tab:sys-summary}. 
+%Note that the information on the uncertainties on the magnitudes and phases of the complex amplitude have been omitted, since only branching fractions are reported as results. 
+%Experimental systematic uncertainties originate from the imprecision introduced from fixed signal and background yields, efficiency and background phase-space modelling, 
+%and possible bias due to the fitting procedure. 
+%Model uncertainties account for fixed parameters in the signal model, the addition or removal of signal components in the fit, choice of signal model, 
+%and the approximation of the flavoured averaged amplitude fit.
+
+%
+%
+\begin{table}[tb]
+\centering
+\caption{\small
+  Systematic uncertainties on the fit fractions, quoted as absolute uncertainties in \%. 
+  The columns give the contributions from each of the different sources described in the text.
+}
+\label{tab:sys-summary}
+\vspace{12pt}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{lcccccccc|c}
+\hline
+& \multicolumn{9}{c}{Fit fraction (\%) uncertainties} \\
+  Resonance   & Yields & Bkg. & Eff. & Fit bias & Add.\ res. & Fixed par. & Alt.\ model &  Method & Total  \\
+\hline                                                                     
+\KstarIm    & $0.2$   &   $0.2$   &   $0.5$  &   $0.2$   &   --      &   $0.7$    &   $5.4$   &   $3.1$   &   $6.3$ \\  
+\KstarIIm   & $0.1$   &   $0.2$   &   $0.6$  &   $0.3$   &   $0.1$   &   $2.1$    &   $22.0$  &   $2.9$   &   $22.3$ \\
+\KstarIIIm  & $0.1$   &   $0.1$   &   $0.3$  &   $0.6$   &   $0.1$   &   $1.8$    &   $2.2$   &   $0.2$   &   $2.9$ \\
+\KstarIz    & $0.2$   &   $0.2$   &   $0.4$  &   $0.9$   &   --      &   $0.3$    &   $7.0$   &   $2.0$   &   $7.4$ \\
+\KstarIIz   & $0.2$   &   $0.3$   &   $0.9$  &   $0.4$   &   $0.1$   &   $4.4$    &   $3.3$   &   $1.3$   &   $5.7$ \\
+\KstarIIIz  & $0.1$   &   $0.3$   &   $0.7$  &   $1.3$   &   $0.2$   &   $4.4$    &   $3.6$   &   $1.0$   &   $6.0$ \\
+\hline                                                                                                                
+\KstarIp    & $0.4$   &   $0.1$   &   $0.6$  &   $0.5$   &   $0.1$   &   $0.7$    &   $1.1$   &   $0.7$   &   $1.8$ \\
+\KstarIIp   & $0.5$   &   $0.4$   &   $0.7$  &   $0.8$   &   $0.2$   &   $6.4$    &   $13.0$  &   $4.5$   &   $15.2$ \\
+\KstarIIIp  & $0.1$   &   $0.2$   &   $0.4$  &   $0.2$   &   $0.1$   &   $4.1$    &   $4.5$   &   $3.2$   &   $6.9$ \\
+\KstarIzb   & $0.4$   &   $0.3$   &   $0.4$  &   $0.2$   &   $0.2$   &   $0.5$    &   $3.0$   &   $7.9$   &   $8.5$ \\
+\KstarIIzb  & $0.4$   &   $0.4$   &   $0.6$  &   $0.8$   &   $0.7$   &   $0.9$    &   $3.9$   &   $5.4$   &   $6.8$ \\
+\KstarIIIzb & $0.1$   &   $0.2$   &   $0.4$  &   $0.8$   &   $0.1$   &   $1.0$    &   $5.5$   &   $2.7$   &   $6.3$ \\
+\hline        
+\end{tabular}
+}
+\end{table}
+%-------------------------------------------------------------------------------
+
+Uncertainties associated to the signal and background yields obtained from the mass fit are examined from scaling the errors obtained from the whole mass fit range to the signal region. 
+Statistical uncertainties on the yields are obtained from the covariance matrix of the baseline fit result, and systematic uncertainties are extracted similarly as for the branching fraction measurement~\cite{LHCb-PAPER-2013-042}.  
+A series of pseudo-experiments are generated from the baseline mass fit which are fitted by varying all of the fixed parameters according to their covariance matrix. 
+The differences in results between the toy and baseline fit ensembles are then fitted with a Gaussian function, and  
+a systematic uncertainty is assigned as the linear sum of the absolute value of the corresponding mean and width. 
+The dependence on the models used in the invariant mass fit is investigated by repeating the fit on ensembles generated with alternative shapes. 
+The signal shape is examined by removing the right-tail of the mass distribution whilst 
+for the combinatorial background the effect of floating independently the slopes for each spectrum and replacing the exponential by a linear model are evaluated.  
+These uncertainties are propagated into the amplitude fit by generating a series of ensembles in order to address the uncertainties related to the yield extraction, either by the RMS of the fitted quantity over the ensemble or the mean difference to the baseline model. 
+
+Uncertainties arising from the modelling of the Dalitz plot distributions of both combinatorial and cross-feed backgrounds are estimated 
+by varying the histograms used to describe these shapes within their statistical uncertainties to create an ensemble of new histograms.  
+The data is refitted using each new histogram and the systematic uncertainty is taken from the RMS of the fitted quantity over the ensemble.
+
+Effects related to the efficiency modelling are determined by repeating the Dalitz plot fit using new histograms obtained in a similar fashion as for the background. 
+Uncertainties caused by residual disagreements between data and simulation are addressed by examining 
+alternative efficiency maps either by varying the binning scheme choice or using different corrections.
+The simulated distributions of the features used in the BDT algorithm are known to have residual differences with respect to the signal data. 
+The impact of this is estimated by repeating the multivariate classifier training using 
+signal samples corrected by a multivariate reweighting procedure~\cite{Rogozhnikov:2016bdp}.
+%from uncorrelated background-subtracted samples~\cite{Pivk:2004ty}.  
+Potential disagreements in the vertexing of the \KS meson as a function of momentum are also 
+studied using $D^{*+}\to (D^{0}\to \phi \KS)\pi^{+}$ calibration samples, with a similar procedure 
+as in Ref.~\cite{LHCb-PAPER-2012-009}.
+Finally, effects related to the hardware stage trigger are addressed
+by calibrating the associated efficiency maps using $B \to \jpsi K$ and $\jpsi \kaon\pi$ control samples.  
+The data fit is repeated including each of these new efficiency models and a systematic uncertainty is assigned from the mean difference to the results with the baseline model. 
+
+Pseudoexperiments generated from the baseline fit results are used to quantify any intrinsic bias in the fit procedure. 
+The uncertainties are evaluated as the sum in quadrature of the mean difference between the baseline and sampled values and the corresponding uncertainty. 
+
+The choice of the baseline Dalitz fit model introduces important uncertainties through the choices of both the resonant or nonresonant contributions included and the lineshapes used.
+The effects on the results of including additional $K^{*}(1410)$, $K^{*}(1680)$ or $a_{2}(1320)^{\pm}$ signal components in the fit are examined individually for each contribution. 
+Some alternative fits give unrealistic results (for example, with very large sums of fit fractions) and are not included in the evaluation of this uncertainty.
+
+Each resonant contribution has fixed parameters in the fit, which are varied to evaluate the associated systematic uncertainties. 
+These include masses and widths~\cite{PDG2017} and the effective range and scattering length parameters of the LASS lineshape~\cite{PDG2017,lass2}.
+The Blatt--Weisskopf radius parameter is varied within the range $3.0$--$5.0 \gev^{-1}\hbar c$.
+The fit is repeated many times varying each of these fixed parameters within its uncertainties. 
+The RMS of the distribution of the change in each fitted parameter is taken as the systematic uncertainty.
+
+The baseline LASS parametrisation for the $K\pi$ S-wave modelling is known to be an approximate form, 
+and associated uncertainties are assigned by evaluating the impact of an alternative parametrisation. 
+This component is replaced by the model suggested in Ref.~\cite{ElBennich:2009da}, using tabulated magnitudes and phases at various values of $m(K\pi)$ obtained from form factors. 
+This is found to provide a good description of the data, despite the larger interference pattern observed. 
+Further theoretical work is required to have an accurate description of the S-wave term, therefore 
+the differences between this alternative model and the baseline model are conservatively assigned as systematic uncertainties.
+
+Modelling each of the $\Bs\to\KS\Kpm\pimp$ Dalitz plots with a single amplitude is an approximation, as discussed in Sec.~\ref{sec:Introduction}.
+The associated systematic uncertainty is evaluated by generating with a full decay-time-dependent model a series of ensembles with different parameters for the contributing amplitudes based on the expected branching fractions~\cite{Cheng:2014uga,Li:2014fla} and a range of different \CP\ violation hypotheses.
+The results obtained from the fit with the approximate model are compared to those expected with the full model, with results for the fit fractions found to be robust in contrast to those for relative phases between resonant contributions.
+The systematic uncertainty is assigned as the bias found in the case that the model is generated with the theoretically preferred values for the parameters~\cite{Cheng:2014uga,Li:2014fla}.
+% different \text{CP}-violating hypotheses, \textit{e.g} ${\cal{A}}^{CP} = 0, \pm 10, \pm 20\,\%$ in $B^{0}_{s}\to K^{+}K^{*-}$ and $B^{0}_{s}\to K^{*+}K^{-}$~\cite{Cheng:2014uga,Li:2014fla} decays. 
+% There is a good agreement in the flavoured averaged fit fractions obtained in all cases, 
+% and thus a conservative systematic uncertainty using the most theoretical motivated scenario is added to the measurement. 
+%
+%-------------------------------------------------------------------------------
+

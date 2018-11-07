@@ -1,0 +1,56 @@
+\section{Detector, trigger and simulation}
+\label{sec:Detector}
+
+The \lhcb detector~\cite{Alves:2008zz,LHCb-DP-2014-002} is a single-arm
+forward spectrometer covering the \mbox{pseudorapidity} range $2<\eta <5$,
+designed for the study of particles containing \bquark or \cquark quarks.
+The detector includes a high-precision tracking system consisting of a
+silicon-strip vertex detector (\velo) surrounding the $pp$ interaction
+region, a large-area silicon-strip detector located upstream of a dipole
+magnet with a bending power of about $4{\mathrm{\,Tm}}$, and three stations
+of silicon-strip detectors and straw drift tubes placed downstream of the
+magnet.
+The tracking system provides a measurement of momentum, \ptot, of charged particles with
+relative uncertainty that varies from 0.5\% at low momentum to 1.0\% at 200\gevc.
+The minimum distance of a track to a primary vertex (PV), the impact parameter (IP), 
+is measured with a resolution of $(15+29/\pt)\mum$,
+where \pt is the component of the momentum transverse to the beam, in\,\gevc.
+Different types of charged hadrons are distinguished using information
+from two ring-imaging Cherenkov detectors.
+Photons, electrons and hadrons are identified by a calorimeter system
+consisting of scintillating-pad and preshower detectors, an electromagnetic
+calorimeter and a hadronic calorimeter.
+Muons are identified by a system composed of alternating layers of iron and
+multiwire proportional chambers.
+
+The online event selection is performed by a
+trigger~\cite{LHCb-DP-2012-004}, 
+which consists of a hardware stage, based on information from the calorimeter and muon
+systems, followed by a software stage, in which all charged particles
+with $\pt>500\,(300)\mevc$ are reconstructed for data collected in 2011\,(2012).
+At the hardware trigger stage, events are required to contain a muon with high
+\pt or a hadron, photon or electron with high transverse energy in the
+calorimeters.
+The software trigger requires a two-, three- or four-track secondary vertex
+with significant displacement from all primary $pp$ interaction vertices.
+At least one charged particle must have transverse momentum $\pt >
+1.7\,(1.6)\gevc$ in the 2011\,(2012) data and be inconsistent with
+originating from a PV.
+A multivariate algorithm~\cite{BBDT} is used for the identification of
+secondary vertices consistent with the decay of a \bquark hadron.
+It is required that the software trigger decision must have been caused
+entirely by tracks from the decay of the signal \B candidate.
+
+Simulated data samples are used to investigate backgrounds from other
+\bquark-hadron decays and also to study the detection and reconstruction
+efficiency of the signal.
+In the simulation, $pp$ collisions are generated using
+\pythia~\cite{Sjostrand:2007gs,*Sjostrand:2006za} with a specific \lhcb
+configuration~\cite{LHCb-PROC-2010-056}.
+Decays of hadronic particles are described by \evtgen~\cite{Lange:2001uf},
+in which final-state radiation is generated using
+\photos~\cite{Golonka:2005pn}.
+The interaction of the generated particles with the detector, and its
+response, are implemented using the \geant toolkit~\cite{Allison:2006ve,
+*Agostinelli:2002hh} as described in Ref.~\cite{LHCb-PROC-2011-006}.
+

@@ -1,0 +1,94 @@
+\section{Determination of signal and background yields}
+\label{sec:dataset}
+
+The signal and background yields are determined by means of a simultaneous
+unbinned extended maximum likelihood fit to the 24 \B-candidate invariant
+mass distributions that result from considering separately the four final
+states, three data-taking periods and two \KS reconstruction categories.
+Three components contribute to each invariant mass distribution:
+signal decays, backgrounds resulting from cross-feeds, and random
+combinations of unrelated tracks.
+The contribution from a fourth category of background, partially
+reconstructed decays, is reduced to a negligible level by performing the
+fit in the invariant mass window $5200 < m(\Kshhp) < 5800\mevcc$.
+The modelling of each of the three fit components follows that used in
+Ref.~\cite{LHCb-PAPER-2017-010}.
+A brief summary of the models used is given here.
+
+Signal decays with correctly identified final-state particles are
+modelled with the sum of two Crystal Ball (CB)
+functions~\cite{Skwarnicki:1986xj} that share common values for the mean
+and width of the Gaussian part of the function but have independent power
+law tails on opposite sides of the Gaussian peak.
+Cross-feed contributions from misidentified $\BdstoKshhp$ decays are also modelled with the sum of two CB functions.
+Only contributions with a single misidentified track are included since contributions from other potential misidentified decays are found to be negligibly small.
+The yield of each misidentified decay is constrained, with respect to the
+yield of the corresponding correctly identified decay, using the ratio of
+the selection efficiencies and the corresponding uncertainty.
+The combinatorial background is modelled by a linear function.
+
+\begin{figure}[!tb]
+\begin{center}
+\includegraphics*[width=0.49\textwidth]{figs/fig2a}
+\includegraphics*[width=0.49\textwidth]{figs/fig2b}
+\end{center}
+\caption{\small
+  Invariant mass distribution of candidates in data for the
+  (left)~\KsKpPim\ and (right)~\KsKmPip\ final states. 
+  Components are detailed in the legend, where they are shown in the
+  same order as they are stacked in the figure. 
+}
+\label{fig : mass-fit}
+\end{figure}
+
+The fit results for the \KsKpPim and \KsKmPip final states,
+combining all data-taking periods and \KS reconstruction categories,
+are shown in \fig{mass-fit}.
+\tab{mass-fit} details the fitted yields of all categories, both in the
+invariant mass region used for the mass fit and in the reduced region to be
+used in the amplitude analysis, defined as $\mu\pm2.5\sigma$ where $\mu$
+($\sigma$) is the fitted peak position (width) of the \Bs signal component in
+that category.
+The yields are given for each of the two final states broken down by
+data-taking periods and \KS reconstruction categories.
+
+%--------------------------------------------------------------------------------------------%
+\begin{table}[t]
+\caption{\small
+  Yields obtained from the simultaneous fit to the invariant mass
+  distribution of $\Bs\to\KS\Kpm\pimp$ candidates in data for each fit category: signal, combinatorial background and cross-feed from from misidentified $\BdstoKshhp$ decays.
+  The uncertainties given on the yields in the full range are statistical only.
+  Yields in the signal region $\pm2.5\sigma$ around the \Bs\ peak are also given; the determination of uncertainties on these values is described in Sec.~\ref{sec:systematics}.
+}
+\label{tab : mass-fit}
+%\vspace{15pt}
+\resizebox{\textwidth}{!}{
+\begin{tabular}{ c | c | c | c  c | c  c | c c }
+\hline
+  Final			& \KS		&	& \multicolumn{2}{c}{\Bs\ signal}		& \multicolumn{2}{c}{Combinatorial}		& \multicolumn{2}{c}{Cross-feed}	\\
+state			& category	& Year	& Full range			& $2.5\,\sigma$	& Full range			& $2.5\,\sigma$	& Full range		& $2.5\,\sigma$	\\
+\hline                                                                                                                                                                                  
+\mrsix{\KsKpPim}	& \mrthree{\DD}	& 2011	& $\pho73.6 \pm 10.6$		& $\pho72.1$	& $108.3 \pm 15.1$		& $22.1$	& $\pho8.9 \pm 2.8$	        & $1.7$		\\
+			&		& 2012a	& $\pho48.2 \pm \pho8.6$	& $\pho45.7$	& $\pho70.1 \pm 12.1$		& $14.3$	& $\pho7.3 \pm 3.8$	        & $1.1$		\\
+			&		& 2012b	& $135.3 \pm 13.6$		& $130.0$	& $\pho87.4 \pm 13.8$		& $17.9$	& $17.0 \pm 5.6$	& $3.1$		\\
+\cdashline{2-9}                                                                                                                                                                         
+			& \mrthree{\LL}	& 2011	& $\pho76.2 \pm \pho9.8$	& $\pho74.6$	& $\pho44.1 \pm \pho9.8$	& $\pho8.4$	& $\pho8.2 \pm 1.7$	        & $1.8$		\\
+			&		& 2012a	& $\pho38.5 \pm \pho7.7$	& $\pho36.8$	& $\pho58.8 \pm 11.2$		& $11.2$	& $\pho7.8 \pm 1.8$	        & $0.9$		\\
+			&		& 2012b	& $\pho73.5 \pm 10.6$		& $\pho71.9$	& $\pho71.7 \pm 13.1$		& $13.6$	& $15.9 \pm 2.5$	& $1.7$		\\
+\cdashline{2-9}                                                                                                                                                                         
+Total			&		&	&				& 431.1		&				& 87.5		&			& 10.3		\\
+\hline                                                                                                                                                                                  
+\mrsix{\KsKmPip}	& \mrthree{\DD}	& 2011	& $\pho72.8 \pm 10.3$		& $\pho71.4$	& $\pho78.9 \pm 12.7$		& $16.1$	& $\pho8.2 \pm 2.4$    	& $1.3$		\\
+			&		& 2012a	& $\pho68.8 \pm \pho9.6$	& $\pho65.2$	& $\pho46.2 \pm \pho9.9$	& $\pho9.5$	& $\pho7.0 \pm 3.4$	        & $1.2$		\\
+			&		& 2012b	& $165.1 \pm 15.2$		& $158.6$	& $104.1 \pm 15.0$		& $21.3$	& $17.3 \pm 5.8$	& $2.9$		\\
+\cdashline{2-9}                                                                                                                                                                         
+			& \mrthree{\LL}	& 2011	& $\pho77.3 \pm \pho9.8$	& $\pho75.7$	& $\pho39.0 \pm 10.2$		& $\pho7.4$	& $\pho9.6 \pm 1.7$	        & $1.4$		\\
+			&		& 2012a	& $\pho40.3 \pm \pho8.1$	& $\pho38.5$	& $\pho58.9 \pm 11.9$		& $11.2$	& $\pho8.6 \pm 1.8$	        & $0.7$		\\
+			&		& 2012b	& $\pho81.7 \pm 10.4$		& $\pho80.0$	& $\pho50.1 \pm 12.3$		& $\pho9.5$	& $15.0 \pm 2.5$	& $1.4$		\\
+\cdashline{2-9}                                                                                                                                                                         
+Total			&		&	&				& 489.4		&				& 75.0		&			& 8.9		\\
+\hline
+\end{tabular}
+}
+\end{table}
+%--------------------------------------------------------------------------------------------%

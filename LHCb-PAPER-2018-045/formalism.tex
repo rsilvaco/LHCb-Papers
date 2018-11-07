@@ -1,0 +1,123 @@
+\section{Dalitz plot analysis formalism}
+\label{sec:formalism}
+
+The Dalitz plot~\cite{Dalitz:1953cp} describes the phase-space of a three-body decay in terms of two of the three possible two-body invariant mass squared combinations.
+In $\Bs \to \KS\Kpm\pimp$ decays the most significant resonant structures are expected to be from excited kaon states decaying to $\KS\pimp$ or $\Kpm\pimp$ and therefore these are used to define the Dalitz plot axes.
+For a fixed $\Bs$ mass, these two invariant mass squared combinations can be used to calculate all other relevant kinematic quantities.
+
+The Dalitz plot analysis involves developing a model that describes the variation of the complex decay amplitudes over the full phase-space of a three-body decay.
+The distribution of decays seen in experiment is related to the square of the magnitude of the amplitude, modified to account for detection efficiency and background contributions.  
+As described in Sec.~\ref{sec:Introduction}, this is only an approximation for $\Bs \to \KS\Kpm\pimp$ decays, where the physical distribution in each final state depends on the incoherent sum of two contributions.  
+A single amplitude is nonetheless used to model the data, since it is not possible to separate the two contributing amplitudes without initial state flavour tagging; a systematic uncertainty is assigned to account for possible biases induced by this approximation.
+The Dalitz plot fit is performed using the {\sc Laura++}~\cite{Laura++} package, with the different final states, \KS reconstruction categories and data-taking periods handled using the {\it J}{\sc fit} method~\cite{Ben-Haim:2014afa}.
+
+The isobar model~\cite{Fleming:1964zz,Morgan:1968zza,Herndon:1973yn} is used to describe the complex decay amplitude. 
+The total amplitude is given by the coherent sum of amplitudes from $N$ intermediate contributions,
+% and is given by
+\begin{equation}\label{eqn:amp}
+  {\cal A}\left(m^2(\KS\pimp), m^2(\Kpm\pimp)\right) = \sum_{j=1}^{N} c_j F_j\left(m^2(\KS\pimp), m^2(\Kpm\pimp)\right) \,,
+\end{equation}
+where $c_j$ are complex coefficients describing the relative strength of each intermediate process. 
+The resonant dynamics are contained in the $F_j\left(m^2(\KS\pimp),m^2(\Kpm\pimp)\right)$ terms, which are normalised such that the integral of the squared magnitude over the Dalitz plot is unity for each term.
+For a $\KS\pimp$ resonance $F_j\left(m^2(\KS\pimp),m^2(\Kpm\pimp)\right)$ is given by
+\begin{equation}
+  \label{eq:ResDynEqn}
+  F\left(m^2(\KS\pimp), m^2(\Kpm\pimp)\right) = 
+  R\left(m(\KS\pimp)\right) \times X(|\vec{p}\,|\,r_{\rm BW}) \times X(|\vec{q}\,|\,r_{\rm BW}) 
+  \times T(\vec{p},\vec{q}\,) \, ,
+\end{equation}
+where $\vec{p}$ is the bachelor particle\footnote{
+  The ``bachelor'' particle is that not forming the resonance, \ie\ the $\Kpm$ in this example.} momentum and $\vec{q}$ is the momentum of one of the resonance daughters, both evaluated in the $\KS\pimp$ rest frame.
+The $R$ functions are the mass lineshapes, typically described by the relativistic Breit--Wigner function with alternative shapes used in some specific situations.
+The $X$ and $T$ terms describe barrier factors and angular distributions, respectively, and depend on the orbital angular momentum between the resonance and the bachelor particle, $L$;
+the barrier factors $X$ are evaluated in terms of the Blatt--Weisskopf radius parameter $r_{\rm BW}$ for which a default value of $4.0 \gev^{-1}\hbar c$ is used.
+The angular distributions are given in the Zemach tensor formalism~\cite{Zemach:1963bc,Zemach:1968zz}, and are proportional to the Legendre polynomials, $P_L(x)$, where $x$ is the cosine of the angle between $\vec{p}$ and $\vec{q}$ (referred to as the helicity angle). 
+Detailed expressions for the functions $R$, $X$ and $T$ can be found in Ref.~\cite{Laura++}.
+
+% The $X(z)$ terms are Blatt--Weisskopf barrier factors~\cite{blatt-weisskopf}, where $z=|\vec{q}\,|\,r_{\rm BW}$ or $|\vec{p}\,|\,r_{\rm BW}$ and $r_{\rm BW}$ is the barrier radius which is set to $4.0\gev^{-1}\approx 0.8\fm$~\cite{LHCb-PAPER-2014-036} for all resonances. 
+% The barrier factors are angular momentum dependent and are given by
+% \begin{equation}\begin{array}{rcl}
+% L = 0 \ : \ X(z) & = & 1\,, \\
+% L = 1 \ : \ X(z) & = & \sqrt{\frac{1 + z_0^2}{1 + z^2}}\,, \\
+% L = 2 \ : \ X(z) & = & \sqrt{\frac{z_0^4 + 3z_0^2 + 9}{z^4 + 3z^2 + 9}}\,,\\
+% L = 3 \ : \ X(z) & = & \sqrt{\frac{z_0^6 + 6z_0^4 + 45z_0^2 + 225}{z^6 + 6z^4 + 45z^2 + 225}}\,,
+% \end{array}\label{eq:BWFormFactors}\end{equation}
+% where $z_0$ is the value of $z$ at the pole mass of the resonance and $L$ is the orbital angular momentum between the resonance and the bachelor particle.
+% Since the parent and daughter particles all have zero spin, $L$ is also the spin of the resonance.
+
+% The $T(\vec{p},\vec{q})$ terms describe the angular distributions in the Zemach tensor formalism~\cite{Zemach:1963bc,Zemach:1968zz} and are given by
+% \begin{equation}\begin{array}{rcl}
+% L = 0 \ : \ T(\vec{p},\vec{q}) & = & 1\,,\\
+% L = 1 \ : \ T(\vec{p},\vec{q}) & = & -\,2\,\vec{p}\cdot\vec{q}\,,\\
+% L = 2 \ : \ T(\vec{p},\vec{q}) & = & \frac{4}{3} \left[3(\vec{p}\cdot\vec{q}\,)^2 - (|\vec{p}\,||\vec{q}\,|)^2\right]\,,\\
+% L = 3 \ : \ T(\vec{p},\vec{q}) & = & -\,\frac{24}{15} \left[5(\vec{p}\cdot\vec{q}\,)^3 - 3(\vec{p}\cdot\vec{q}\,)(|\vec{p}\,||\vec{q}\,|)^2\right]\,.
+% \end{array}\label{eq:ZTFactors}\end{equation}
+% These expressions are proportional to the Legendre polynomials, $P_L(x)$, where $x$ is the cosine of the angle between $\vec{p}$ and $\vec{q}$ (referred to as the helicity angle). 
+
+% The $R\left(m(\KS\pimp)\right)$ functions are the mass lineshapes.
+% Resonant contributions are typically described by the relativistic Breit--Wigner (RBW) function
+% \begin{equation}
+% \label{eq:RelBWEqn}
+% R(m) = \frac{1}{(m_0^2 - m^2) - i\, m_0 \Gamma(m)} \,,
+% \end{equation}
+% where the mass-dependent decay width is
+% \begin{equation}
+% \label{eq:GammaEqn}
+% \Gamma(m) = \Gamma_0 \left(\frac{q}{q_0}\right)^{2L+1}
+% \left(\frac{m_0}{m}\right) X^2(q\,r_{\rm BW}) \,,
+% \end{equation}
+% where $q_0$ is the value of $q = |\vec{q}\,|$ when the invariant mass is equal to the pole mass of the resonance, $m_0$.
+
+% The large phase space available in \B decays allows for the presence of nonresonant amplitudes (\ie\ contributions that do not proceed via a known resonance) that vary across the Dalitz plot.
+% An exponential form factor (EFF) has been found to describe nonresonant contributions well in several Dalitz plot analyses of \B decays~\cite{Garmash:2004wa}, 
+% \begin{equation}
+%   R(m) = \exp\left[-\alpha m^2\right] \, ,
+%   \label{eq:nonres}
+% \end{equation}
+% where $\alpha$ is a shape parameter that must be determined from the data and $m$ is a two-body invariant mass ($m(\KS\pimp)$ in this example).
+
+% The RBW function is a good model for narrow resonances that are well separated from any other resonant or nonresonant
+% contribution of the same spin.
+% This approach is known to break down in the $K\pi$ S-wave because the $\KstarIIb$ resonance interferes strongly with a slowly varying nonresonant term, as described in Ref.~\cite{Meadows:2007jm}.
+% The LASS lineshape~\cite{lass} has been developed to combine these two contributions,
+% \begin{eqnarray}
+%  \label{eq:LASSEqn}
+%   R(m) & = & \frac{m}{q \cot{\delta_B} - iq} + \exp\left[2i \delta_B\right]
+%   \frac{m_0 \Gamma_0 \frac{m_0}{q_0}}
+%        {(m_0^2 - m^2) - i m_0 \Gamma_0 \frac{q}{m} \frac{m_0}{q_0}}\, , \\
+% {\rm where} \ \cot{\delta_B} & = & \frac{1}{aq} + \frac{1}{2} r q \, ,
+% \end{eqnarray}
+% and where $m_0$ and $\Gamma_0$ are the pole mass and width of the $\KstarIIb$ state, and $a$ and $r$ are shape parameters.
+
+The complex coefficients $c_j$, defined in Eq.~(\ref{eqn:amp}), are determined from the fit to data.
+These are used to obtain fit fractions for each component $j$, which provide a robust and convention-independent way to report the results of the analysis.
+The fit fractions are defined as the integral over one Dalitz plot ($\KS\Kp\pim$ or $\KS\Km\pip$) of the amplitude for each intermediate component squared, divided by that of the coherent matrix element squared for all intermediate contributions, 
+\begin{equation}
+{\it FF}_j =
+\frac
+{\int\!\!\int_{\rm DP}\left|c_j F_j\right|^2~dm^2(\KS\pimp)\,dm^2(\Kpm\pimp)}
+{\int\!\!\int_{\rm DP}\left|{\cal A}\right|^2~dm^2(\KS\pimp)\,dm^2(\Kpm\pimp)} \, ,
+\label{eq:fitfraction}
+\end{equation}
+where the dependence of $F_j$ and ${\cal A}$ on Dalitz plot position has been omitted for brevity.
+The fit fractions need not sum to unity due to possible net constructive or destructive interference.
+% , described by interference fit fractions defined by 
+% \begin{equation}
+%   {\it FF}_{ij} =
+%   \frac
+%   {\int\!\!\int_{\rm DP} 2 \, \Real\left[c_ic_j^* F_iF_j^*\right]~dm^2(\KS\pimp)\,dm^2(\Kpm\pimp)}
+%   {\int\!\!\int_{\rm DP}\left|{\cal A}\right|^2~dm^2(\KS\pimp)\,dm^2(\Kpm\pimp)} \, ,
+%   \label{eq:intfitfraction}
+% \end{equation}
+% where the dependence of $F_i^{(*)}$ and ${\cal A}$ on the Dalitz plot position has been omitted.
+% By definition, the sum of all fit fractions and interference fit fractions
+% with $i<j$ only is equal to unity.  
+
+%% For the purpose of the branching ratio calculation, it is useful to consider quantities averaged over the two different final states.
+For this analysis, it is useful to define also flavour-averaged fit fractions $\widehat{FF}_{j}$, where the numerator and denominator of Eq.~(\ref{eq:fitfraction}) are replaced by sums of the same quantities over both final states, and it is understood that a resonance corresponding to $j$ in one Dalitz plot will be replaced by its conjugate in the other (\eg\ \KstarIm\ in the $\KS\Kp\pim$ final state and \KstarIp\ for $\KS\Km\pip$).
+These can be converted into product of branching fractions for the \Bs\ and \Kstar\ decays by multiplying by the known $\BsToKzBarOptKpi$ branching fraction,
+\begin{equation}
+  \label{eq:Chap-FFhat}
+  \Br{\Bs \to \Kstar\kaon; \Kstar\to\kaon\pion} = \widehat{FF}_{j} \times \Br{\BsToKzBarOptKpi} \,, 
+\end{equation}  
+where $\Br{\Bs \to \Kstar\kaon}$ is the sum of the branching fractions for the two conjugate final states.

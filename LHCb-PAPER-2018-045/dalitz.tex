@@ -1,0 +1,149 @@
+\section{Dalitz plot fit}
+\label{sec:dalitz}
+
+The parameters of the signal model are determined from an unbinned maximum likelihood fit to the distributions of data across the $\KS\Kp\pim$ and $\KS\Km\pip$ Dalitz plots.  
+The physical signal model is modified to account for variation of the efficiency across the phase space, and background contributions are accounted for.
+The yields of signal and background components in the signal region are taken from Table~\ref{tab : mass-fit}.
+Separate efficiency functions and background models for each final state, \KS reconstruction category and data-taking period are also used.
+
+Since in general the resonance masses are much smaller than the \Bs\ mass, 
+the selected candidates tend to populate regions close to the kinematic boundaries of the Dalitz plot.
+Therefore, it is convenient to describe the signal efficiency variation and background event density using the transformed coordinates referred to as square Dalitz plot (SDP) variables, defined by
+%%
+\begin{equation}
+\label{eq:sqdp-vars}
+m^{\prime} \equiv \frac{1}{\pi}
+\arccos\left(2\frac{m(\Kpm\pimp) - m^{\rm min}_{\Kpm\pimp}}{m^{\rm max}_{\Kpm\pimp} - m^{\rm min}_{\Kpm\pimp}} - 1 \right)\,, 
+\qquad
+\theta^{\prime} \equiv \frac{1}{\pi}\theta(\Kpm\pimp)\,,
+\end{equation}
+%%
+where $m(\Kpm\pimp)$ is the invariant mass of the charged kaon and pion,
+$m^{\rm max}_{\Kpm\pimp} = m_{\Bs} - m_{\KS}$ and
+$m^{\rm min}_{\Kpm\pimp} = m_{\Kpm} + m_{\pimp}$
+are the kinematic limits of $m_{\Kpm\pimp}$,
+and $\theta(\Kpm\pimp)$ is the helicity angle between the \pimp\ and the \KS\ in the $\Kpm\pimp$ rest frame.
+% These variables have validity ranges between 0 and 1.
+
+\subsection{Signal efficiency variation}
+
+The signal efficiency is determined accounting for effects due to the LHCb detector geometry, and due to reconstruction and selection requirements.
+The effects of PID requirements are considered separately to the rest of the selection efficiency to facilitate the use of data-driven methods. 
+
+The geometric efficiency is determined from generator-level simulation.
+This contribution is the same for the 2012a and 2012b samples, and for the \LL and \DD categories, as it is purely related to the kinematics of the \Bs\ mesons produced in LHC collisions.
+The effect is, however, evaluated separately for 2011 and 2012 data due to the different beam energy.
+
+The reconstruction and selection (excluding PID) efficiency is determined from simulated samples, now also accounting for the response of the detector.
+Small corrections due to known differences between data and simulation in the track finding efficiency~\cite{DeCian:1402577} and hardware trigger response~\cite{MartinSanchez:1407893} are applied.
+
+The efficiency of the PID requirements is determined from large control samples of $\Dstarp \to \Dz \pip$, $\Dz \to \Km\pip$ decays.
+Differences in kinematics and detector occupancy between the control samples and the signal data are accounted for~\cite{LHCb-DP-2012-003,LHCb-PUB-2016-021}.
+
+The combined efficiency maps are obtained as products of SDP histograms describing each of the three contributions described above.
+These are subsequently smoothed using two-dimensional cubic splines.
+The variation of the efficiency across the SDP is similar for each subsample of the data; the absolute scale differs between \LL and \DD categories due to acceptance and between data-taking periods due to changes in the trigger.
+The efficiency is lowest for large values of $m^{\prime}$, with a peak at $m^{\prime} \sim 0.3$; there is about a factor of five difference in the efficiency between these two regions mainly caused by the difficulty to reconstruct decays in a region of phase space where the $\Kpm$ and $\pimp$ tracks are soft and the $\KS$ is energetic.
+
+\subsection{Background modelling}
+
+As can be seen in Fig.~\ref{fig : mass-fit} and Table~\ref{tab : mass-fit}, the signal region contains contributions from combinatorial background and cross-feed from misidentified $\Bz\to\KS\pip\pim$ decays.
+The Dalitz plot distribution of the combinatorial background is modelled using data from a sideband at high $m(\KS\Kpm\pimp)$. %$5400 < m(\KS\Kpm\pimp) < 5800 \mevcc$. 
+In order to increase the size of the sample used for this modelling, a looser BDT requirement is imposed than that for the signal selection.
+It is verified that this does not change the Dalitz plot distribution of the background significantly, as it should not since the BDT is explicitly constructed to minimise correlation of its output variable with position in the Dalitz plot.
+The combinatorial background is found to vary smoothly over the Dalitz plot.
+
+Cross-feed from misidentified $\Bz\to\KS\pip\pim$ decays is modelled using a simulation of this decay, weighted in order to reproduce its measured Dalitz plot distribution~\cite{Aubert:2009me}.
+The effect of the detector response is simulated, with the effect of the PID requirements accounted for by weights determined from data control samples, similarly as done for the evaluation for the signal efficiency.  
+The most prominent structures in the Dalitz plot model for this background are due to the \KstarIpm\ resonances.
+
+\subsection{Amplitude model for $\Bs \to \KS\Kpm\pimp$ decays} 
+
+The Dalitz plot distributions of the selected $\Bs\to\KS\Kpm\pimp$ candidates, after background-subtraction and efficiency-correction and for all data subsamples combined, are shown in Fig.~\ref{fig:dp-distribution}.
+There are clear excesses at low values of both $m^2(\KS\pimp)$ and $m^2(\Kpm\pimp)$, corresponding to excited kaon resonances.
+There is no strong excess at low values of $m^2(\KS\Kpm)$, which would appear as diagonal bands towards the upper right of the kinematically allowed regions of the Dalitz plots.
+The two Dalitz plot distributions appear to be consistent with each other, and hence with \CP\ conservation.
+
+\begin{figure}[!tb]
+  \begin{center}
+    \includegraphics*[width=0.49\textwidth]{figs/DP_Bs2KSKpi}
+    \includegraphics*[width=0.49\textwidth]{figs/DP_Bs2KSpiK}
+  \end{center}
+\caption{\small
+  Background-subtracted and efficiency-corrected Dalitz plot distributions for (left) \KsKpPim and (right) \KsKmPip final states. 
+  Boxes with a cross indicate negative values.
+  }
+  \label{fig:dp-distribution}
+\end{figure}
+
+The baseline signal model is developed by considering the impact of including or removing resonant or nonresonant contributions in the model.
+The kaon resonances listed in Ref.~\cite{PDG2017} are considered, with charged and neutral isospin partners treated separately, as it is possible that one contributes significantly while the other does not.
+If a resonance is included in the model for one final state, its conjugate is always also included in the model for the other, however.  
+States which can decay to $\KS\Kpm$, such as the $a_2(1320)^\pm$ particle, are also considered but none are found to contribute significantly.
+
+The baseline model contains contributions from the $\Kstar(892)^{0,+}$, $K^*_0(1430)^{0,+}$ and $K^*_2(1430)^{0,+}$ resonances.
+The vector and tensor states are described with relativistic Breit--Wigner functions with parameters taken from Ref.~\cite{PDG2017}.
+This is not appropriate for the broad $K\pi$ S-wave.
+Several different lineshapes that have been suggested in the literature are tested, with the LASS description~\cite{lass} found to be most suitable in terms of fit stability and agreement with the data.  
+This combines the $K^*_0(1430)$ resonance with a slowly varying nonresonant component; the associated parameters are taken from Refs.~\cite{PDG2017,lass2}.
+
+The $\Bs\to \KstarIpm\Kmp$ and $\Bs \to \KstarIzoptbar\KorKbarz$ decays have previously been observed~\cite{LHCb-PAPER-2014-043,LHCb-PAPER-2015-018}.\footnote{
+  The notation $\KstarIzoptbar\KorKbarz$ refers to the sum of the $\KstarIz\Kzb$ and $\KstarIzb\Kz$ final states, \etc
+}
+The significance of each of the other contributions is evaluated using a likelihood ratio test.  
+Ensembles of simulated pseudoexperiments are generated with parameters corresponding to the best fit to data obtained with models that do not contain the resonance of interest, but that otherwise contain the same resonances as the baseline model.
+Each pseudoexperiment is fitted with models both with and without the given resonance included, from which a distribution of the difference in negative log likelihood is obtained.
+This is found to be well fitted by a $\chisq$ shape, which can then be extrapolated to find the $p$-value corresponding to the difference in negative log likelihood obtained in data.  
+
+Using this procedure, the significances for the \KstarIIp, \KstarIIz, \KstarIIIp\ and \KstarIIIz\ contributions are found to correspond to 17.3, 15.2, 4.0 and 4.8 standard deviations, when only statistical uncertainties are included.
+Among all the systematic variations discussed in Sec.~\ref{sec:systematics}, the $K\pi$ S-wave contributions remain highly significant, and therefore the $\Bs\to \KstarIIpm\Kmp$ and $\Bs \to \KstarIIzoptbar\KorKbarz$ decays are considered to be observed with significance over 10 standard deviations.
+Some systematic variations do, however, impact strongly on the need to include tensor resonances in the fit model, and thus preclude any similar conclusion for the $\Bs\to \KstarIIIpm\Kmp$ and $\Bs \to \KstarIIIzoptbar\KorKbarz$ decays.
+
+\begin{figure}[!tb]
+  \begin{center}
+    \includegraphics*[width=0.47\textwidth]{figs/m12_Bs2KSKpi_Combined.pdf}
+    \includegraphics*[width=0.47\textwidth]{figs/m12_Bs2KSpiK_Combined.pdf}
+    \includegraphics*[width=0.47\textwidth]{figs/m23_Bs2KSKpi_Combined.pdf}
+    \includegraphics*[width=0.47\textwidth]{figs/m13_Bs2KSpiK_Combined.pdf}
+    \includegraphics*[width=0.47\textwidth]{figs/m13_Bs2KSKpi_Combined.pdf}
+    \includegraphics*[width=0.47\textwidth]{figs/m23_Bs2KSpiK_Combined.pdf}
+  \end{center}
+\caption{\small
+  Invariant mass data distribution for (top)~$m(\Kpm\pimp)$, (middle)~$m(\KS\pimp)$ and (bottom)~$m(\KS\Kpm)$. 
+  The data are shown with black points, while the full fit is shown in blue, background from combinatorial background in red and \BdToKSpipi\ cross-feed in green.
+  The resonance components are shown with
+  $\KstarIpm$ in violet dash triple-dotted, $\KstarIIpm$ in orange dotted, $\KstarIIIpm$ in magenta long-dashed, 
+  $\KstarIzoptbar$ in dark cyan dash dotted, $\KstarIIzoptbar$ in green long-dash dotted and $\KstarIIIzoptbar$ gray long-dash double-dotted lines. 
+  }
+  \label{fig:dp-fits}
+\end{figure}
+
+The results of the fit of the baseline model to the data are shown in Fig.~\ref{fig:dp-fits}.
+Various methods are used to assess the goodness-of-fit~\cite{Williams:2010vh} and find good agreement between the model and the data.
+The results for the fit fractions are given in Table~\ref{tab:FFs}.
+The statistical uncertainties on the fit fractions are evaluated from the spreads in these values obtained when fitting ensembles of pseudoexperiments generated according to the baseline model with parameters corresponding to those obtained in the fit to data.
+The fit fractions for each resonance and its conjugate (in the other Dalitz plot) are consistent, as expected from the absence of difference between the two Dalitz plot distributions.
+Thus, no significant \CP\ violation effect is observed.
+
+\begin{table}[!tb]
+\centering
+\caption{\small
+  Results of the fit with the baseline model to the $\KS\Kp\pim$ and $\KS\Km\pip$ Dalitz plots.
+  The fit fractions associated with each resonant component are given with statistical uncertainties only.
+  The sums of fit fractions for both $\Bs \to \KS\Kp\pim$ and $\Bs \to \KS\Km\pip$ are 102\%, corresponding to low net interference effects.
+  }
+\label{tab:FFs}
+\begin{tabular}{lclc}
+\hline \\ [-2.4ex]   
+\multicolumn{2}{c}{$\Bs \to \KS\Kp\pim$} & \multicolumn{2}{c}{$\Bs \to \KS\Km\pip$} \\
+Resonance   & Fit fraction (\%)          & Resonance   & Fit fraction (\%)          \\
+\hline \\ [-2.4ex]                                 
+\KstarIm    & $15.6 \pm 1.5$             & \KstarIp    & $13.4 \pm 2.0$             \\
+\KstarIIm   & $30.2 \pm 2.6$             & \KstarIIp   & $28.5 \pm 3.6$             \\
+\KstarIIIm  & $\,\,\,2.9 \pm 1.3$        & \KstarIIIp  & $\,\,\,5.8 \pm 1.9$        \\
+\KstarIz    & $13.2 \pm 2.4$             & \KstarIzb     & $19.2 \pm 2.3$             \\                                      
+\KstarIIz   & $33.9 \pm 2.9$             & \KstarIIzb    & $27.0 \pm 4.1$             \\
+\KstarIIIz  & $\,\,\,5.9 \pm 4.0$        & \KstarIIIzb   & $\,\,\,7.7 \pm 2.8$        \\
+\hline
+\end{tabular}
+\end{table}

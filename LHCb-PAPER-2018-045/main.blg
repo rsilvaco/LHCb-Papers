@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: main.aux
+The style file: LHCb.bst
+Database file #1: main.bib
+Database file #2: LHCb-PAPER.bib
+Database file #3: LHCb-CONF.bib
+Database file #4: LHCb-DP.bib
+Database file #5: LHCb-TDR.bib
+Warning--empty author in LHCb-CONF-2018-001
+Warning--empty author in LHCb-TDR-012
+Warning--empty author in LHCb-PII-EoI
+You've used 61 entries,
+            2888 wiz_defined-function locations,
+            1133 strings with 16918 characters,
+and the built_in function-call counts, 282458 in all, are:
+= -- 30962
+> -- 476
+< -- 0
++ -- 1689
+- -- 114
+* -- 28923
+:= -- 34712
+add.period$ -- 61
+call.type$ -- 61
+change.case$ -- 58
+chr.to.int$ -- 0
+cite$ -- 64
+duplicate$ -- 4276
+empty$ -- 29705
+format.name$ -- 114
+if$ -- 61598
+int.to.chr$ -- 0
+int.to.str$ -- 61
+missing$ -- 291
+newline$ -- 377
+num.names$ -- 57
+pop$ -- 977
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 429
+stack$ -- 0
+substring$ -- 84741
+swap$ -- 8
+text.length$ -- 122
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 1572
+width$ -- 63
+write$ -- 943
+(There were 3 warnings)

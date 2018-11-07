@@ -1,0 +1,646 @@
+\ifx\mcitethebibliography\mciteundefinedmacro
+\PackageError{LHCb.bst}{mciteplus.sty has not been loaded}
+{This bibstyle requires the use of the mciteplus package.}\fi
+\providecommand{\href}[2]{#2}
+\begin{mcitethebibliography}{10}
+\mciteSetBstSublistMode{n}
+\mciteSetBstMaxWidthForm{subitem}{\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd{\mcitemaxwidthsubitemform\space}
+{\relax}{\relax}
+
+\bibitem{Cabibbo:1963yz}
+N.~Cabibbo, \ifthenelse{\boolean{articletitles}}{\emph{{Unitary symmetry and
+  leptonic decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevLett.10.531}{Phys.\ Rev.\ Lett.\
+  \textbf{10} (1963) 531}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Kobayashi:1973fv}
+M.~Kobayashi and T.~Maskawa, \ifthenelse{\boolean{articletitles}}{\emph{{\CP\
+  violation in the renormalizable theory of weak interaction}},
+  }{}\href{https://doi.org/10.1143/PTP.49.652}{Prog.\ Theor.\ Phys.\
+  \textbf{49} (1973) 652}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Grossman:1996ke}
+Y.~Grossman and M.~P. Worah, \ifthenelse{\boolean{articletitles}}{\emph{{\CP
+  asymmetries in \B decays with new physics in decay amplitudes}},
+  }{}\href{https://doi.org/10.1016/S0370-2693(97)00068-3}{Phys.\ Lett.\
+  \textbf{B395} (1997) 241},
+  \href{http://arxiv.org/abs/hep-ph/9612269}{{\normalfont\ttfamily
+  arXiv:hep-ph/9612269}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Fleischer:1996bv}
+R.~Fleischer, \ifthenelse{\boolean{articletitles}}{\emph{{\CP violation and the
+  role of electroweak penguins in nonleptonic $B$ decays}},
+  }{}\href{https://doi.org/10.1142/S0217751X97001432}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{A12} (1997) 2459},
+  \href{http://arxiv.org/abs/hep-ph/9612446}{{\normalfont\ttfamily
+  arXiv:hep-ph/9612446}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{London:1997zk}
+D.~London and A.~Soni, \ifthenelse{\boolean{articletitles}}{\emph{{Measuring
+  the \CP angle $\beta$ in hadronic $b \to s$ penguin decays}},
+  }{}\href{https://doi.org/10.1016/S0370-2693(97)00695-3}{Phys.\ Lett.\
+  \textbf{B407} (1997) 61},
+  \href{http://arxiv.org/abs/hep-ph/9704277}{{\normalfont\ttfamily
+  arXiv:hep-ph/9704277}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ciuchini:1997zp}
+M.~Ciuchini {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{\CP
+  violating \B decays in the Standard Model and supersymmetry}},
+  }{}\href{https://doi.org/10.1103/PhysRevLett.79.978}{Phys.\ Rev.\ Lett.\
+  \textbf{79} (1997) 978},
+  \href{http://arxiv.org/abs/hep-ph/9704274}{{\normalfont\ttfamily
+  arXiv:hep-ph/9704274}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Dalseno:2008wwa}
+Belle collaboration, J.~Dalseno {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Time-dependent Dalitz plot
+  measurement of \CP\ parameters in $\Bz \to \KS \pip\pim$ decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.79.072004}{Phys.\ Rev.\
+  \textbf{D79} (2009) 072004},
+  \href{http://arxiv.org/abs/0811.3665}{{\normalfont\ttfamily
+  arXiv:0811.3665}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Aubert:2009me}
+\babar collaboration, B.~Aubert {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Time-dependent amplitude analysis
+  of $B^0 \to \KS \pi^+ \pi^-$}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.80.112001}{Phys.\ Rev.\
+  \textbf{D80} (2009) 112001},
+  \href{http://arxiv.org/abs/0905.3615}{{\normalfont\ttfamily
+  arXiv:0905.3615}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Nakahama:2010nj}
+Belle collaboration, Y.~Nakahama {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of \CP violating
+  asymmetries in $B^0 \to K^+K^- K^0_S$ decays with a time-dependent Dalitz
+  approach}}, }{}\href{https://doi.org/10.1103/PhysRevD.82.073011}{Phys.\ Rev.\
+   \textbf{D82} (2010) 073011},
+  \href{http://arxiv.org/abs/1007.3848}{{\normalfont\ttfamily
+  arXiv:1007.3848}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Lees:2012kxa}
+BaBar collaboration, J.~P. Lees {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Study of \CP violation in
+  Dalitz-plot analyses of $B^0 \to K^+K^-\KS$, $B^+ \to K^+K^-K^+$, and $B^+
+  \to \KS\KS K^+$}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.85.112010}{Phys.\ Rev.\
+  \textbf{D85} (2012) 112010},
+  \href{http://arxiv.org/abs/1201.5897}{{\normalfont\ttfamily
+  arXiv:1201.5897}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2018-006}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of \CP asymmetries in
+  two-body \BdorBs-meson decays to charged pions and kaons}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.98.032004}{Phys.\ Rev.\
+  \textbf{D98} (2018) 032004},
+  \href{http://arxiv.org/abs/1805.06759}{{\normalfont\ttfamily
+  arXiv:1805.06759}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2014-026}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of \CP violation in
+  $\Bs\to \phiz\phiz$ decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.90.052011}{Phys.\ Rev.\
+  \textbf{D90} (2014) 052011},
+  \href{http://arxiv.org/abs/1407.2222}{{\normalfont\ttfamily
+  arXiv:1407.2222}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-CONF-2018-001}
+{LHCb collaboration}, \ifthenelse{\boolean{articletitles}}{\emph{{Measurement
+  of $C\!P$ violation in the $B_s^0 \to \phi\phi$ decay and search for the $B^0
+  \to \phi\phi$ decay}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCb-CONF-2018-001&f=reportnumber&action_search=Search&c=LHCb+Conference+Contributions}
+  {LHCb-CONF-2018-001}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2017-048}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{First measurement of the
+  \CP-violating phase $\phi_s^{d\dquarkbar}$ in $\Bs\to(K^+\pi^-)(K^-\pi^+)$
+  decays}}, }{}\href{https://doi.org/10.1007/JHEP03(2018)140}{JHEP \textbf{03}
+  (2018) 140}, \href{http://arxiv.org/abs/1712.08683}{{\normalfont\ttfamily
+  arXiv:1712.08683}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2013-042}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Study of $\BdorBs^0 \to \KS h^+
+  h^{\prime -}$ decays with first observation of $\Bs\to \KS\Kpm\pimp$ and
+  $\Bs\to \KS\pip\pim$}},
+  }{}\href{https://doi.org/10.1007/JHEP10(2013)143}{JHEP \textbf{10} (2013)
+  143}, \href{http://arxiv.org/abs/1307.7648}{{\normalfont\ttfamily
+  arXiv:1307.7648}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2017-010}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Updated branching fraction
+  measurements of $\BdorBs\to \KS h^+ h^{\prime-}$ decays}},
+  }{}\href{https://doi.org/10.1007/JHEP11(2017)027}{JHEP \textbf{11} (2017)
+  027}, \href{http://arxiv.org/abs/1707.01665}{{\normalfont\ttfamily
+  arXiv:1707.01665}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2014-043}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Observation of $\Bs\to
+  \Kstarpm\Kmp$ and evidence of $\Bs\to \Kstarm\pip$ decays}},
+  }{}\href{https://doi.org/10.1088/1367-2630/16/12/123001}{New J.\ Phys.\
+  \textbf{16} (2014) 123001},
+  \href{http://arxiv.org/abs/1407.7704}{{\normalfont\ttfamily
+  arXiv:1407.7704}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2015-018}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{First observation of the decay
+  $\Bs\to \KS\Kstar(892)^0$}},
+  }{}\href{https://doi.org/10.1007/JHEP01(2016)012}{JHEP \textbf{01} (2016)
+  012}, \href{http://arxiv.org/abs/1506.08634}{{\normalfont\ttfamily
+  arXiv:1506.08634}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Gronau:2006qn}
+M.~Gronau, D.~Pirjol, A.~Soni, and J.~Zupan,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Improved method for CKM
+  constraints in charmless three-body \B and \Bs decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.75.014002}{Phys.\ Rev.\
+  \textbf{D75} (2007) 014002},
+  \href{http://arxiv.org/abs/hep-ph/0608243}{{\normalfont\ttfamily
+  arXiv:hep-ph/0608243}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DeBruyn:2012wj}
+K.~De~Bruyn {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Branching
+  ratio measurements of $\Bs$ decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.86.014027}{Phys.\ Rev.\
+  \textbf{D86} (2012) 014027},
+  \href{http://arxiv.org/abs/1204.1735}{{\normalfont\ttfamily
+  arXiv:1204.1735}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2013-069}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of resonant and \CP
+  components in $\Bsb\to \jpsi\pip\pim$ decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.89.092006}{Phys.\ Rev.\
+  \textbf{D89} (2014) 092006},
+  \href{http://arxiv.org/abs/1402.6248}{{\normalfont\ttfamily
+  arXiv:1402.6248}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Dettori:2018bwt}
+F.~Dettori and D.~Guadagnoli, \ifthenelse{\boolean{articletitles}}{\emph{{On
+  the model dependence of measured $\Bs$-meson branching fractions}},
+  }{}\href{https://doi.org/10.1016/j.physletb.2018.07.041}{Phys.\ Lett.\
+  \textbf{B784} (2018) 96},
+  \href{http://arxiv.org/abs/1804.03591}{{\normalfont\ttfamily
+  arXiv:1804.03591}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Cheng:2014uga}
+H.-Y. Cheng and C.-K. Chua,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Charmless three-body decays of
+  \Bs mesons}}, }{}\href{https://doi.org/10.1103/PhysRevD.89.074025}{Phys.\
+  Rev.\  \textbf{D89} (2014) 074025},
+  \href{http://arxiv.org/abs/1401.5514}{{\normalfont\ttfamily
+  arXiv:1401.5514}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Li:2014fla}
+Y.~Li, \ifthenelse{\boolean{articletitles}}{\emph{{Branching fractions and
+  direct \CP asymmetries of $\Bsb \to \Kz h^+h^{\prime -} (h^{(\prime)}=K,\pi)$
+  decays}}, }{}\href{https://doi.org/10.1007/s11433-014-5581-3}{{Science China
+  Physics, Mechanics \& Astronomy} (2014) 1},
+  \href{http://arxiv.org/abs/1401.5948}{{\normalfont\ttfamily
+  arXiv:1401.5948}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Li:2018qrm}
+Y.~Li, W.-F. Wang, A.-J. Ma, and Z.-J. Xiao,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Quasi-two-body decays $B_{(s)}\to
+  K^*(892)h\to K\pi h$ in perturbative QCD approach}},
+  }{}\href{http://arxiv.org/abs/1809.09816}{{\normalfont\ttfamily
+  arXiv:1809.09816}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Alves:2008zz}
+LHCb collaboration, A.~A. Alves~Jr.\ {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{The \lhcb detector at the LHC}},
+  }{}\href{https://doi.org/10.1088/1748-0221/3/08/S08005}{JINST \textbf{3}
+  (2008) S08005}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2014-002}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{LHCb detector performance}},
+  }{}\href{https://doi.org/10.1142/S0217751X15300227}{Int.\ J.\ Mod.\ Phys.\
+  \textbf{A30} (2015) 1530022},
+  \href{http://arxiv.org/abs/1412.6352}{{\normalfont\ttfamily
+  arXiv:1412.6352}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2012-004}
+R.~Aaij {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{The \lhcb
+  trigger and its performance in 2011}},
+  }{}\href{https://doi.org/10.1088/1748-0221/8/04/P04022}{JINST \textbf{8}
+  (2013) P04022}, \href{http://arxiv.org/abs/1211.3055}{{\normalfont\ttfamily
+  arXiv:1211.3055}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{BBDT}
+V.~V. Gligorov and M.~Williams,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Efficient, reliable and fast
+  high-level triggering using a bonsai boosted decision tree}},
+  }{}\href{https://doi.org/10.1088/1748-0221/8/02/P02013}{JINST \textbf{8}
+  (2013) P02013}, \href{http://arxiv.org/abs/1210.6861}{{\normalfont\ttfamily
+  arXiv:1210.6861}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Sjostrand:2007gs}
+T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands,
+  \ifthenelse{\boolean{articletitles}}{\emph{{A brief introduction to PYTHIA
+  8.1}}, }{}\href{https://doi.org/10.1016/j.cpc.2008.01.036}{Comput.\ Phys.\
+  Commun.\  \textbf{178} (2008) 852},
+  \href{http://arxiv.org/abs/0710.3820}{{\normalfont\ttfamily
+  arXiv:0710.3820}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Sjostrand:2006za}
+T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands,
+  \ifthenelse{\boolean{articletitles}}{\emph{{PYTHIA 6.4 physics and manual}},
+  }{}\href{https://doi.org/10.1088/1126-6708/2006/05/026}{JHEP \textbf{05}
+  (2006) 026}, \href{http://arxiv.org/abs/hep-ph/0603175}{{\normalfont\ttfamily
+  arXiv:hep-ph/0603175}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PROC-2010-056}
+I.~Belyaev {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{Handling
+  of the generation of primary events in Gauss, the LHCb simulation
+  framework}}, }{}\href{https://doi.org/10.1088/1742-6596/331/3/032047}{{J.\
+  Phys.\ Conf.\ Ser.\ } \textbf{331} (2011) 032047}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Lange:2001uf}
+D.~J. Lange, \ifthenelse{\boolean{articletitles}}{\emph{{The EvtGen particle
+  decay simulation package}},
+  }{}\href{https://doi.org/10.1016/S0168-9002(01)00089-4}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A462} (2001) 152}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Golonka:2005pn}
+P.~Golonka and Z.~Was, \ifthenelse{\boolean{articletitles}}{\emph{{PHOTOS Monte
+  Carlo: A precision tool for QED corrections in $Z$ and $W$ decays}},
+  }{}\href{https://doi.org/10.1140/epjc/s2005-02396-4}{Eur.\ Phys.\ J.\
+  \textbf{C45} (2006) 97},
+  \href{http://arxiv.org/abs/hep-ph/0506026}{{\normalfont\ttfamily
+  arXiv:hep-ph/0506026}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Allison:2006ve}
+Geant4 collaboration, J.~Allison {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Geant4 developments and
+  applications}}, }{}\href{https://doi.org/10.1109/TNS.2006.869826}{IEEE
+  Trans.\ Nucl.\ Sci.\  \textbf{53} (2006) 270}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Agostinelli:2002hh}
+Geant4 collaboration, S.~Agostinelli {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Geant4: A simulation toolkit}},
+  }{}\href{https://doi.org/10.1016/S0168-9002(03)01368-8}{Nucl.\ Instrum.\
+  Meth.\  \textbf{A506} (2003) 250}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PROC-2011-006}
+M.~Clemencic {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{The
+  \lhcb simulation application, Gauss: Design, evolution and experience}},
+  }{}\href{https://doi.org/10.1088/1742-6596/331/3/032023}{{J.\ Phys.\ Conf.\
+  Ser.\ } \textbf{331} (2011) 032023}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Breiman}
+L.~Breiman, J.~H. Friedman, R.~A. Olshen, and C.~J. Stone, {\em Classification
+  and regression trees}, Wadsworth international group, Belmont, California,
+  USA, 1984\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{AdaBoost}
+Y.~Freund and R.~E. Schapire, \ifthenelse{\boolean{articletitles}}{\emph{A
+  decision-theoretic generalization of on-line learning and an application to
+  boosting}, }{}\href{https://doi.org/10.1006/jcss.1997.1504}{J.\ Comput.\
+  Syst.\ Sci.\  \textbf{55} (1997) 119}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Skwarnicki:1986xj}
+T.~Skwarnicki, {\em {A study of the radiative cascade transitions between the
+  Upsilon-prime and Upsilon resonances}}, PhD thesis, Institute of Nuclear
+  Physics, Krakow, 1986,
+  {\href{http://inspirehep.net/record/230779/}{DESY-F31-86-02}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Dalitz:1953cp}
+R.~H. Dalitz, \ifthenelse{\boolean{articletitles}}{\emph{{On the analysis of
+  tau-meson data and the nature of the tau-meson}},
+  }{}\href{https://doi.org/10.1080/14786441008520365}{Phil.\ Mag.\  \textbf{44}
+  (1953) 1068}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Laura++}
+J.~Back {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{LAURA$^{++}$:
+  A Dalitz plot fitter}},
+  }{}\href{https://doi.org/10.1016/j.cpc.2018.04.017}{Comput.\ Phys.\ Commun.\
+  \textbf{231} (2018) 198},
+  \href{http://arxiv.org/abs/1711.09854}{{\normalfont\ttfamily
+  arXiv:1711.09854}}, latest software release available from
+  \href{http://laura.hepforge.org/}{\tt http://laura.hepforge.org/}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Ben-Haim:2014afa}
+E.~Ben-Haim, R.~Brun, B.~Echenard, and T.~E. Latham,
+  \ifthenelse{\boolean{articletitles}}{\emph{{JFIT: a framework to obtain
+  combined experimental results through joint fits}},
+  }{}\href{http://arxiv.org/abs/1409.5080}{{\normalfont\ttfamily
+  arXiv:1409.5080}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Fleming:1964zz}
+G.~N. Fleming, \ifthenelse{\boolean{articletitles}}{\emph{{Recoupling effects
+  in the isobar model. 1. General formalism for three-pion scattering}},
+  }{}\href{https://doi.org/10.1103/PhysRev.135.B551}{Phys.\ Rev.\  \textbf{135}
+  (1964) B551}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Morgan:1968zza}
+D.~Morgan, \ifthenelse{\boolean{articletitles}}{\emph{{Phenomenological
+  analysis of $I=\frac{1}{2}$ single-pion production processes in the energy
+  range 500 to 700 MeV}},
+  }{}\href{https://doi.org/10.1103/PhysRev.166.1731}{Phys.\ Rev.\  \textbf{166}
+  (1968) 1731}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Herndon:1973yn}
+D.~Herndon, P.~Soding, and R.~J. Cashmore,
+  \ifthenelse{\boolean{articletitles}}{\emph{{A generalised isobar model
+  formalism}}, }{}\href{https://doi.org/10.1103/PhysRevD.11.3165}{Phys.\ Rev.\
+  \textbf{D11} (1975) 3165}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Zemach:1963bc}
+C.~Zemach, \ifthenelse{\boolean{articletitles}}{\emph{{Three pion decays of
+  unstable particles}},
+  }{}\href{https://doi.org/10.1103/PhysRev.133.B1201}{Phys.\ Rev.\
+  \textbf{133} (1964) B1201}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Zemach:1968zz}
+C.~Zemach, \ifthenelse{\boolean{articletitles}}{\emph{{Use of angular-momentum
+  tensors}}, }{}\href{https://doi.org/10.1103/PhysRev.140.B97}{Phys.\ Rev.\
+  \textbf{140} (1965) B97}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{DeCian:1402577}
+M.~De~Cian {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of the track finding
+  efficiency}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCb-PUB-2011-025&f=reportnumber&action_search=Search&c=LHCb+Notes}
+  {LHCb-PUB-2011-025}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{MartinSanchez:1407893}
+A.~Mart\'{i}n~Sanchez, P.~Robbe, and M.-H. Schune,
+  \ifthenelse{\boolean{articletitles}}{\emph{{Performances of the LHCb L0
+  calorimeter trigger}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCb-PUB-2011-026&f=reportnumber&action_search=Search&c=LHCb+Notes}
+  {LHCb-PUB-2011-026}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-DP-2012-003}
+M.~Adinolfi {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Performance of the \lhcb RICH
+  detector at the LHC}},
+  }{}\href{https://doi.org/10.1140/epjc/s10052-013-2431-9}{Eur.\ Phys.\ J.\
+  \textbf{C73} (2013) 2431},
+  \href{http://arxiv.org/abs/1211.6759}{{\normalfont\ttfamily
+  arXiv:1211.6759}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PUB-2016-021}
+L.~Anderlini {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{The
+  PIDCalib package}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=LHCb-PUB-2016-021&f=reportnumber&action_search=Search&c=LHCb+Notes}
+  {LHCb-PUB-2016-021}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{PDG2017}
+Particle Data Group, C.~Patrignani {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{\href{http://pdg.lbl.gov/}{Review
+  of particle physics}}},
+  }{}\href{https://doi.org/10.1088/1674-1137/40/10/100001}{Chin.\ Phys.\
+  \textbf{C40} (2016) 100001}, and {\href{http://pdglive.lbl.gov/}{2017
+  update}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{lass}
+LASS collaboration, D.~Aston {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{A study of $K^- \pi^+$ scattering
+  in the reaction $K^- p \to K^- \pi^+ n$ at 11 Ge\kern -0.1em V$\!/c$}},
+  }{}\href{https://doi.org/10.1016/0550-3213(88)90028-4}{Nucl.\ Phys.\
+  \textbf{B296} (1988) 493}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{lass2}
+{W.~Dunwoodie, {\it Fits to $K\pi$ $I=\frac{1}{2}$ S-wave amplitude and phase
+  data}, available from \href{http://www.sl
+  ac.stanford.edu/~wmd/kpi\_swave/kpi\_swave\_fit.note}{\tt
+  http://www.slac.stanford.edu/\textasciitilde{}wmd/kpi\_swave/kpi\_swave\_fit.note}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Williams:2010vh}
+M.~Williams, \ifthenelse{\boolean{articletitles}}{\emph{{How good are your
+  fits? Unbinned multivariate goodness-of-fit tests in high energy physics}},
+  }{}\href{https://doi.org/10.1088/1748-0221/5/09/P09004}{JINST \textbf{5}
+  (2010) P09004}, \href{http://arxiv.org/abs/1006.3019}{{\normalfont\ttfamily
+  arXiv:1006.3019}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{Rogozhnikov:2016bdp}
+A.~Rogozhnikov, \ifthenelse{\boolean{articletitles}}{\emph{{Reweighting with
+  Boosted Decision Trees}},
+  }{}\href{https://doi.org/10.1088/1742-6596/762/1/012036}{J.\ Phys.\ Conf.\
+  Ser.\  \textbf{762} (2016) 012036},
+  \href{http://arxiv.org/abs/1608.05806}{{\normalfont\ttfamily
+  arXiv:1608.05806}}, \url{https://github.com/arogozhnikov/hep_ml}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PAPER-2012-009}
+LHCb collaboration, R.~Aaij {\em et~al.},
+  \ifthenelse{\boolean{articletitles}}{\emph{{Measurement of the $\Dsp$--$\Dsm$
+  production asymmetry in $7$\tev $\proton\proton$ collisions}},
+  }{}\href{https://doi.org/10.1016/j.physletb.2012.06.001}{Phys.\ Lett.\
+  \textbf{B713} (2012) 186},
+  \href{http://arxiv.org/abs/1205.0897}{{\normalfont\ttfamily
+  arXiv:1205.0897}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{ElBennich:2009da}
+B.~El-Bennich {\em et~al.}, \ifthenelse{\boolean{articletitles}}{\emph{{$CP$
+  violation and kaon-pion interactions in $B \to K \pi^+ \pi^-$ decays}},
+  }{}\href{https://doi.org/10.1103/PhysRevD.79.094005}{Phys.\ Rev.\
+  \textbf{D79} (2009) 094005}, Erratum
+  \href{https://doi.org/10.1103/PhysRevD.83.039903}{ibid.\   \textbf{D83}
+  (2011) 039903}, \href{http://arxiv.org/abs/0902.3645}{{\normalfont\ttfamily
+  arXiv:0902.3645}}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-TDR-012}
+LHCb collaboration, \ifthenelse{\boolean{articletitles}}{\emph{{Framework TDR
+  for the LHCb Upgrade: Technical Design Report}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=CERN-LHCC-2012-007&f=reportnumber&action_search=Search&c=LHCb+Reports}
+  {CERN-LHCC-2012-007}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem{LHCb-PII-EoI}
+LHCb collaboration, \ifthenelse{\boolean{articletitles}}{\emph{{Expression of
+  Interest for a Phase-II LHCb Upgrade: Opportunities in flavour physics, and
+  beyond, in the HL-LHC era}}, }{}
+  \href{http://cdsweb.cern.ch/search?p=CERN-LHCC-2017-003&f=reportnumber&action_search=Search&c=LHCb+Reports}
+  {CERN-LHCC-2017-003}\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
